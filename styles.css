@@ -102,3 +102,14 @@ footer {
   text-align: right;
   font-family: 'Amiri', serif;
 }
+
+@media (max-width: 600px) {
+    input[type="text"],
+    input[type="email"] {
+        width: 100%; /* Full width on small screens */
+    }
+
+    form {
+        gap: 10px; /* Reduce spacing for compact layouts */
+    }
+}
