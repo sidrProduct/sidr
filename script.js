@@ -46,4 +46,5 @@ function switchLanguage(lang) {
 }
 
 // Default Language
-switchLanguage('en');
+
+switchLanguage('ar');
